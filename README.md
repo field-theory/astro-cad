@@ -1,16 +1,21 @@
 AstroCAD - Celestial mechanics [![development status](http://img.shields.io/badge/status-final--release-green.svg)](http://www.field-theory.org)
 ==============================
 
-This is a collection of programs, functions and procedures written in Turbo Pascal for the numerical simulation of celestial mechanics in our solar system. It was my contribution to the Jugend forscht contest in 1992. I made first place at the regional level and second place at the state level.
+Executive Summary
+-----------------
 
-The program has been written in Turbo Pascal. The units and functions are documented in German, but severals names of functions, procedures and variables are in English. There is some redundancy in parts of the programs since I have been experimenting with different ways to solve the differential equations.
-
-In order to back up the files and results I have uploaded them to github. I have identified those parts that do not depend on Turbo Pascal for DOS and which can today be compiled with the Free Pascal Compiler. I found there is only one file that will not compile with Free Pascal -- this requires Turbo Pascal 7 for DOS which can still be run today using emulators like DOSbox. If there is a way to use the graph and crt units that are part of Turbo Pascal 7 with contemporary compilers then you can use these without any restrictions.
-
-License
--------
+This is a collection of programs, functions and procedures written in Turbo Pascal for the numerical simulation of celestial mechanics in our solar system. It was my contribution to the Jugend forscht contest in 1992 and it ranked first place at the regional level and second place at the state level.
 
 The license is GPLv2 (cf. the included file `LICENSE`).
+
+**NOTE** This project is complete and will likely not be updated anymore!
+
+Programming language and requirements
+-------------------------------------
+
+The original program has been written in Turbo Pascal. The units and functions are documented in German, but severals names of functions, procedures and variables are in English. There is some redundancy in parts of the programs since I have been experimenting with different ways to solve the differential equations.
+
+In order to back up the files and results I have uploaded them to github. I have identified those parts that do not depend on Turbo Pascal for DOS and which can today be compiled with the Free Pascal Compiler. I found there is only one file that will not compile with Free Pascal -- this requires Turbo Pascal 7 for DOS which can still be run today using emulators like DOSbox. If there is a way to use the graph and crt units that are part of Turbo Pascal 7 with contemporary compilers then you can use these without any restrictions.
 
 Running the project
 -------------------
